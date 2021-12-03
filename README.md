@@ -10,11 +10,15 @@ Run:
 
 `$ ./gradlew run`
 
-Build native image:
+Build native image and run:
 
 `$ ./gradlew build -Dquarkus.package.type=native -Dquarkus.native.container-build=true`
 
-Build container with native image:
+`$ cd build`
+
+`$ ./http4k-koin-poc-1.0.0-SNAPSHOT-runner`
+
+OR Build container with native image and run:
 
 `$ docker build -f Dockerfile -t quarkus-poc/v1 .`
 
