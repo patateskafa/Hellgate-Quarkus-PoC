@@ -1,5 +1,9 @@
 # http4k-koin-exposed-poc
 
+Make sure a PostgreSQL instance with DB name/user/password all "postgres" is up and running. i.e.:
+
+`$ docker run --rm --name quarkus-db -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -p 5432:5432 -d postgres`
+
 Run:
 
 `$ ./gradlew run`
