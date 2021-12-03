@@ -1,4 +1,4 @@
-# http4k-koin-poc
+# http4k-koin-exposed-poc
 
 Run:
 
